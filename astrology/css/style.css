@@ -1,0 +1,465 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  list-style: none;
+}
+
+* a {
+  text-decoration: none;
+}
+
+#logo {
+  background-image: url(http://be.beantownthemes.com/html/content/astrology/images/astro-main-bg.jpg);
+}
+
+#header {
+  position: fixed;
+  width: 100%;
+}
+
+#header .dropdown .dp-content {
+  border-top: 1px solid #130E2C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#header .dropdown .dp-content li {
+  padding: 20px 20px;
+}
+
+#header .dropdown .dp-content li .a1 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #e9b951;
+  position: relative;
+}
+
+#header .dropdown .dp-content li .a1::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  background-color: #e9b951;
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 1;
+}
+
+#header .dropdown .dp-content li a {
+  margin-top: 20px;
+  font-size: 20px;
+  color: #e9b951;
+  position: relative;
+}
+
+#header .dropdown .dp-content li a::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  background-color: #e9b951;
+  -webkit-transition: .4s;
+  transition: .4s;
+  opacity: 0;
+}
+
+#header .dropdown .dp-content li a:hover::after {
+  width: 100%;
+  opacity: 1;
+}
+
+#phone-header {
+  background-image: url(http://be.beantownthemes.com/html/content/astrology/images/astro-main-bg.jpg);
+  display: none;
+}
+
+#phone-header .all {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#star {
+  padding: 8rem 0;
+  background-image: url(http://be.beantownthemes.com/html/content/astrology/images/astro-main-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+#star h1 {
+  font-family: "Libre Baskerville";
+  text-align: center;
+  line-height: 74px;
+  font-weight: 400;
+  font-size: 70px;
+  color: #e9b951;
+  margin-bottom: 4rem;
+}
+
+#star a {
+  background-color: #773d9c;
+  line-height: 45px;
+  font-weight: 500;
+  color: #fff;
+  font-size: 20px;
+  font-size: 20px;
+  margin: auto 10px;
+  padding: 15px 25px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#star a:hover {
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
+#star a:nth-child(2) {
+  background-color: #bc9239;
+}
+
+#choose {
+  padding: 8rem 0;
+  background-image: url(http://be.beantownthemes.com/html/content/astrology/images/astro-main-bg.jpg);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#choose .all {
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#choose .all img {
+  width: 50%;
+}
+
+#choose .all h1 {
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #e9b951;
+  margin-bottom: 15px;
+}
+
+#choose .all .box {
+  position: relative;
+}
+
+#choose .all .box img {
+  width: 80%;
+}
+
+#choose .all .box .box-text {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+}
+
+#choose .all .box .box-text h2 {
+  color: #fff;
+  font-size: 20px;
+}
+
+#choose .moon {
+  text-align: center;
+  margin-top: 6rem;
+}
+
+#choose .moon img {
+  width: 90%;
+}
+
+#choose .moon .moon-text {
+  margin: -30px auto;
+}
+
+#choose .moon .moon-text h3 {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #bc9239;
+  margin-bottom: 15px;
+}
+
+#choose .moon .moon-text p {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+#choose .moon .moon-text a {
+  font-size: 15px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #bc9239;
+  font-size: 20px;
+  font-size: 20px;
+  margin: auto 10px;
+  padding: 15px 20px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#choose .moon .moon-text a:hover {
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
+#photo {
+  background-image: url(http://be.beantownthemes.com/html/content/astrology/images/astro-home-clouds.png);
+  background-position: center;
+  background-size: cover;
+  padding: 8rem 0;
+}
+
+#photo .left .box {
+  position: relative;
+}
+
+#photo .left .box:hover img {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+#photo .left .box:hover .box-text {
+  bottom: 5%;
+}
+
+#photo .left .box:hover .box-text::after {
+  width: 50%;
+  opacity: 1;
+}
+
+#photo .left .box .box-text {
+  z-index: 3;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#photo .left .box .box-text i, #photo .left .box .box-text a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+}
+
+#photo .left .box .box-text p {
+  color: #fff;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+#photo .left .box .box-text::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  background-color: #e9b951;
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: 0;
+}
+
+#photo .left .box img {
+  -webkit-transition: .4s;
+  transition: .4s;
+  width: 100%;
+  height: 500px;
+}
+
+#photo .right .box {
+  margin-bottom: 20px;
+  position: relative;
+}
+
+#photo .right .box:hover img {
+  -webkit-filter: brightness(0.7);
+          filter: brightness(0.7);
+}
+
+#photo .right .box:hover .box-text {
+  bottom: 5%;
+}
+
+#photo .right .box:hover .box-text::after {
+  width: 50%;
+  opacity: 1;
+}
+
+#photo .right .box .box-text {
+  z-index: 3;
+  position: absolute;
+  bottom: 3%;
+  left: 5%;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#photo .right .box .box-text i, #photo .right .box .box-text a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+}
+
+#photo .right .box .box-text p {
+  color: #fff;
+  font-size: 24px;
+  letter-spacing: 1px;
+}
+
+#photo .right .box .box-text::after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  background-color: #e9b951;
+  -webkit-transition: .6s;
+  transition: .6s;
+  opacity: 0;
+}
+
+#photo .right .box img {
+  width: 100%;
+  height: 240px;
+}
+
+#teresa {
+  background-color: #F6F4F0;
+  padding: 4rem 0;
+}
+
+#teresa .left img {
+  width: 100%;
+}
+
+#teresa .right .box-text {
+  text-align: start;
+  margin: -30px auto;
+}
+
+#teresa .right .box-text h3 {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #bc9239;
+}
+
+#teresa .right .box-text p {
+  color: #000;
+  font-size: 18px;
+  margin: 25px 0 45px 0;
+}
+
+#teresa .right .box-text a {
+  font-size: 15px;
+  line-height: 45px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #bc9239;
+  font-size: 20px;
+  font-size: 20px;
+  margin: auto 10px;
+  padding: 15px 20px;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#teresa .right .box-text a:hover {
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
+#footer {
+  text-align: center;
+  background-color: #F6F4F0;
+  padding: 2rem 0;
+}
+
+#footer p {
+  color: #000;
+  font-size: 20px;
+}
+
+#footer a {
+  color: #bc9239;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  #header {
+    display: none;
+  }
+  #logo {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  #phone-header {
+    display: block;
+  }
+  #phone-header i {
+    color: #fff;
+  }
+  #star h1 {
+    font-size: 40px;
+    line-height: 44px;
+  }
+  #choose .all .box img {
+    width: 50%;
+  }
+  #photo {
+    padding: 0;
+  }
+  #photo .all {
+    text-align: center;
+  }
+  #photo .all .left {
+    margin-bottom: 20px;
+  }
+  #photo .all .left .box img {
+    height: 240px;
+    width: 95%;
+  }
+  #photo .all .right img {
+    width: 95%;
+  }
+  #footer p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
